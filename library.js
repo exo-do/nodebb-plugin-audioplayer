@@ -8,7 +8,7 @@
 	    type = "",	    	    
 		 embed  = '<div class="playit" data-link="/uploads/files/$1" data-name="$2" ><i class="fa fa-play">&nbsp;&nbsp;</i>$2</div>',
 		  
-       embedUrl_mpeg = /<a href=".*\/uploads\/files\/(\w*-(.*\.mp3)).*>.*<\/a>/ig,  // regex mp3
+       embedUrl_mpeg = /<a href=".*\/assets\/(\w*-(.*\.mp3)).*>.*<\/a>/ig,  // regex mp3
        embedUrl_ogg  = /<a href=".*\/uploads\/files\/(\w*-(.*\.ogg)).*>.*<\/a>/ig,   // regex ogg
        embedUrl_wav  = /<a href=".*\/uploads\/files\/(\w*-(.*\.wav)).*>.*<\/a>/ig;   // regex wav
        
