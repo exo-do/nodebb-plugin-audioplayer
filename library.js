@@ -6,9 +6,9 @@
     
 	var AudioPlayer = {}, 
 	    type = "",	    	    
-		 embed  = '<div class="playit" data-link="http://$2.$3:$4" data-name="$4" ><i class="fa fa-play">&nbsp;&nbsp;</i>$4</div>',
+		 embed  = '<div class="playit" data-link="http://$2.$3:$4" data-name="$4" ><p>stream <i class="fa fa-play">&nbsp;&nbsp;</i>$4</p></div>',
 		  
-       embedUrl_mpeg = /<a href="(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6}):?([\/\w \.-]*\.m3u)*\/?.*>.*<\/a>/ig,     //regex mp3
+       embedUrl_mpeg = /<a href="(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6}):?([\/\w \.-]*)\/?.*>stream<\/a>/ig,     //regex mp3
        embedUrl_ogg  = /<a href=".*\/uploads\/files\/(\w*-(.*\.ogg)).*>.*<\/a>/ig,   // regex ogg
        embedUrl_wav  = /<a href=".*\/uploads\/files\/(\w*-(.*\.wav)).*>.*<\/a>/ig;   // regex wav
        
