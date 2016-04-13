@@ -10,8 +10,8 @@
 	"staticDirs": {
         "static": "./static"
     },
-    "css": [
-        "static/style.css"
+    "less": [
+        "static/style.less"
     ],
     "scripts" : [
         "static/js.js"
