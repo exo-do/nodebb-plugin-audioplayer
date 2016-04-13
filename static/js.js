@@ -15,7 +15,8 @@ $('document').ready(function() {
     html += '<span id="audioplayer_user"></span>';
     html += '<span><audio class="playdemo inline" src="" preload="auto" controls loop autoplay></audio></span>';
     //html += '<a  id="linkToContent" class="pointer inline" ></a>';
-    html += '<a id="linkToTopic" <span class="fa fa-bars pointer t20w inline hover hidden-xs" rel="nofollow "></span></a>';
+    html += '<span id="namestream" class="hidden-xs"></span>';
+    html += '<a id="linkToTopic" <span class="fa fa-bars pointer t20w inline hover hidden-xs" rel="nofollow"></span></a>';
     html += '<span id="linkToDownload" class="fa fa-cloud-download pointer t20w inline hover hidden-xs" rel="nofollow"></span>';
     html += '<span class="closeAudioPlayer right fa fa-times t30w pointer hover" ></span>';
 
@@ -36,7 +37,7 @@ $('document').ready(function() {
 
     // console.log(  "user code => " + user);
     $(".playdemo").attr("src", src);
-    //$("#audioplayer_user").html(name));
+    $("#namestream").html(name);
     //$("#linkToContent").attr("href", URL).text(topic);
     $("#linkToTopic").attr("href", URL);
     // $("#linkToDownload").attr("href", src).title("Download " + name);
