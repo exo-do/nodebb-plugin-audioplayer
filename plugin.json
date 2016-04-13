@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-audioplayer",
-	"name": "NodeBB Audioplayer Plugin",
-	"description": "This plugin is prayed mp3, ogg, wav appear in a player",
-	"url": "https://github.com/ogerly/nodebb-plugin-audioplayer",
+	"id": "nodebb-plugin-audiostream",
+	"name": "NodeBB Audiostream Plugin",
+	"description": "This plugin plays online streams in a player",
+	"url": "https://github.com/exo-do/nodebb-plugin-audiostream",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }

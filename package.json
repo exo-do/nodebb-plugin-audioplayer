@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-plugin-audioplayer",
-  "version": "1.0.6",
-  "description": "NodeBB Audioplayer Plugin for Theme: Persona",
+  "name": "nodebb-plugin-audiostream",
+  "version": "1.0.7",
+  "description": "NodeBB Audiostream , fork of nodebb-plugin-audioplayer",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ogerly/nodebb-plugin-audioplayer.git"
+    "url": "https://github.com/exo-do/nodebb-plugin-audiostream"
   },
   "nbbpm": {
     "compatibility":   "<=1.0.0"
