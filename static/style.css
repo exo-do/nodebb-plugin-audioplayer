@@ -15,10 +15,10 @@
 audio {
     background: rgba(25, 26, 27, 1) !important;
     width: 49%;
-   
+
 }
 
-.inline { 
+.inline {
     display: inline-block;
     vertical-align: top;
 
@@ -36,7 +36,14 @@ audio {
 
 #linkToDownload {
    margin: 7px 20px;
-} 
+}
+#linkToTopic {
+   margin: 7px 20px;
+   text-decoration: none;
+}
+#linkToTopic:focus {
+   color: #fff;
+}
 
 #linkToContent {
   margin: 8px 0px;
