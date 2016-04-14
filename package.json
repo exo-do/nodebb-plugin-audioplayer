@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-audiostream",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "NodeBB Audiostream , fork of nodebb-plugin-audioplayer",
   "main": "library.js",
   "scripts": {
