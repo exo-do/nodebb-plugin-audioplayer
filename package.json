@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-audiostream",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "NodeBB Audiostream , fork of nodebb-plugin-audioplayer",
   "main": "library.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "ogg",
     "wav",
     "player",
-    "stream",
+    "stream"
   ],
   "author": {
     "name": "Alexander Friedland",
